@@ -1,0 +1,31 @@
+{
+    "keys": [
+        "key1"
+    ],
+    "locales": {
+        "ar_AE": {
+            "i18nStrings": {
+                "key1": "ar_AE : Hello World!"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "en_US": {
+            "i18nStrings": {
+                "key1": "Hello World!"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        }
+    }
+}

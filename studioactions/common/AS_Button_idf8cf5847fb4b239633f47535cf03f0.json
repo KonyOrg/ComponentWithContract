@@ -1,0 +1,24 @@
+{
+    "AS_Button_idf8cf5847fb4b239633f47535cf03f0": {
+        "id": "AS_Button_idf8cf5847fb4b239633f47535cf03f0",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "uwu043b5407f2541aa913fd804f058c1fa",
+            "type": "userwidgets",
+            "KUID": "u043b5407f2541aa913fd804f058c1fa"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "RAISE_CUSTOM_EVENT___h1c5d0093afd4331b14e03da73aeb725",
+            "type": "RAISE_CUSTOM_EVENT",
+            "customEvent": "submitFeedback",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

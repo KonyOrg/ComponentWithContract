@@ -1,0 +1,53 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_height_": {
+        "type": "string",
+        "value": "50dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "s02fcdcdaf6143c686139142275fa69c",
+    "_text_": "Call MyManageMethod Of Component",
+    "_top_": {
+        "type": "string",
+        "value": "148dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "300dp"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "s6fc9e4a02804c3ab4c136ad6b5a4afe",
+    "id": "btnCallMyManageMethodOfComponent",
+    "ide_onClick": "AS_Button_jf999d3225324fecbaf34ce1f090ba90",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "cd4bad45884f4dceb1838c5a34cbdec4",
+    "name": "kony.ui.Button",
+    "parent": "fmFeedback",
+    "pf": "fmFeedback",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "wType": "Button",
+    "zindex": 1
+}

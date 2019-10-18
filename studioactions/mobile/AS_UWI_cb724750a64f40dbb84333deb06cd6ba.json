@@ -1,0 +1,25 @@
+{
+    "AS_UWI_cb724750a64f40dbb84333deb06cd6ba": {
+        "id": "AS_UWI_cb724750a64f40dbb84333deb06cd6ba",
+        "type": "ACTION_SEQUENCE",
+        "params": [],
+        "contextObj": {
+            "name": "fmFeedback",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jdee410d8ba346cabb51b119b747d483"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___fd7fb075ba8e4f229cf53b87da2d37f6",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "showFeedback",
+            "display": "showFeedback",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

@@ -1,0 +1,196 @@
+{
+    "classname": "feedback",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d7fb49cf07b94f03ae07207f366b9a2e",
+                    "paramList": [],
+                    "propertyKey": "myManageMethod",
+                    "pw": {
+                        "displayName": "myManageMethod",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ebe5488a94304d8aaae6963196f574e4",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e360857f69144fd2afadc458938d363a",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "submitFeedback",
+                    "pw": {
+                        "displayName": "submitFeedback",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "ebe5488a94304d8aaae6963196f574e4",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "Good Work!",
+                    "group": "General",
+                    "kuid": "fd2a822e25d342ae95db0549ababec06",
+                    "originalPropertyKey": "feedback",
+                    "propertyIndex": 6,
+                    "propertyKey": "feedback",
+                    "pw": {
+                        "displayName": "Feedback Message",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "ebe5488a94304d8aaae6963196f574e4",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "edd97a5600714f3fa9bc7a2dab4b5c9c",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 1,
+                    "propertyKey": "lblTitleText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Title text",
+                        "srcWidget": "lblTitle",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e7f9b8ad82664b4d8e41c48c1720b5a9"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i9961f6d545448fe89470394a9eb6cd5",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "btnSubmitText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Submit Button Text",
+                        "srcWidget": "btnSubmit",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "edc7628da6e54a39a9cb5ccceb42edc4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f084330c61ff468999254e6ca77d0b4f",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 3,
+                    "propertyKey": "lblTitleSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Title Skin",
+                        "srcWidget": "lblTitle",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "e7f9b8ad82664b4d8e41c48c1720b5a9"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "i33b24629d3446b2afe3a288900ed747",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 4,
+                    "propertyKey": "btnSubmitSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Submit Button Skin",
+                        "srcWidget": "btnSubmit",
+                        "wType": "Button"
+                    },
+                    "srcWgtKUID": "edc7628da6e54a39a9cb5ccceb42edc4"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e27792e223ea4be3a25296cc50d0a547",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 7,
+                    "propertyKey": "flexMainSkin",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Component Skin",
+                        "srcWidget": "flexMain",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "db99e2c7415944279e261e7323277911"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "e9adcd74afad43dfa321722455c69c06",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 8,
+                    "propertyKey": "feedbackText",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "Feedback Text",
+                        "srcWidget": "txareaFeedback",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textarea",
+                        "wType": "TextArea"
+                    },
+                    "srcWgtKUID": "be6c915c8be0453093677f5fcdc7e2be"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "bbf488cdb9174e0a8fd69159bc598874",
+                    "propertyKey": "flexMain",
+                    "srcWgtKUID": "db99e2c7415944279e261e7323277911"
+                }
+            ],
+            "passthrough": [
+                {
+                    "kuid": "c40b17081b314dfc8d3c733206eb1356",
+                    "propertyKey": "flexMain",
+                    "srcWgtKUID": "db99e2c7415944279e261e7323277911"
+                }
+            ]
+        }
+    },
+    "namespace": "com.training",
+    "version": "1.0.0"
+}

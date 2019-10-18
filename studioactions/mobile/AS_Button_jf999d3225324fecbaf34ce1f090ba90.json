@@ -1,0 +1,28 @@
+{
+    "AS_Button_jf999d3225324fecbaf34ce1f090ba90": {
+        "id": "AS_Button_jf999d3225324fecbaf34ce1f090ba90",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "fmFeedback",
+            "type": "forms",
+            "platform": "",
+            "KUID": "jdee410d8ba346cabb51b119b747d483"
+        },
+        "language": "js",
+        "actions": [{
+            "id": "INVOKE_FUNCTION___df8dd1c85d6b4946b77c5c7e46dd75aa",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "callMyManageMethodOfComponent",
+            "display": "callMyManageMethodOfComponent",
+            "inputparams": [],
+            "parentId": null,
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}
